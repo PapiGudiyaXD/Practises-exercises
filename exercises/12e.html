@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      practise
+    </title>
+  </head>
+  <style>
+    .whole{
+      display: inline-block;
+      width: 250px;
+      border-radius: 4px;
+      padding-left: 12px;
+      padding-right: 12px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    }
+    .first,
+    .second,
+    .third{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 14px;
+      font-size: 12px;
+    }
+    .note{
+      width: 200px;
+      flex: 1;
+      font-family: arial;
+    }
+    .third{
+      margin-bottom: 0;
+    }
+    button{
+      color: white;
+      font-weight: bold;
+      background-color: rgb(41, 96, 207);
+      border-radius: 16px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      padding-right: 10px;
+      padding-left: 10px;
+      border: none;
+    }
+  </style>
+  <body>
+    <div class="whole" >
+      <div class="first">
+        <div class="note">Home</div>
+        <button>14</button>
+      </div>
+      <div class="second">
+        <div class="note">Notifications</div>
+        <button>3</button>
+      </div>
+      <div class="third">
+        <div class="note">Messages</div>
+        <button>5</button>
+      </div>
+    </div>
+  </body>
+</html>

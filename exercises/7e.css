@@ -1,0 +1,18 @@
+input{
+  border: none;
+  width: 500px;
+  border-radius: 30px;
+  color: rgb(208, 208, 208);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 14px;
+  font-family: arial;
+  }
+  input{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }

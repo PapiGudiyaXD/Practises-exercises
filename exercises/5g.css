@@ -1,0 +1,20 @@
+p{
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.one{
+  font-weight: bold;
+}
+.two{
+  color: rgb(96, 96, 96);
+}
+.description{
+  width: 500px;
+  line-height: 20px;
+  margin-bottom:16px;
+  margin-top: 6px;
+}
+.three{
+  color: rgb(12, 183, 235);
+}

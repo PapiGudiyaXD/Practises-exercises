@@ -1,0 +1,51 @@
+.one{
+  color: white;
+  background-color: rgb(3, 141, 3);
+  border: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  cursor: pointer;
+  transition: padding-right 0.15s,
+  padding-left 0.15s;
+  margin-right: 10px;
+}
+.one:hover{
+  padding-right: 18px;
+  padding-left: 18px;
+}
+.two{
+  color: white;
+  background-color: rgb(3, 141, 3);
+  border: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  cursor: pointer;
+  transition: padding-right 0.15s,
+  padding-left 0.15s;
+  margin-right: 10px;
+}
+.two:hover{
+  padding-right: 18px;
+  padding-left: 18px;
+}
+.three{
+  color: white;
+  background-color: rgb(3, 141, 3);
+  border: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  cursor: pointer;
+  transition: padding-right 0.15s,
+  padding-left 0.15s;
+  margin-right: 10px;
+}
+.three:hover{
+  padding-right: 18px;
+  padding-left: 18px;
+}

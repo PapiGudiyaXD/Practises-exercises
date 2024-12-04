@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>layout</title>
+    <style>
+      .whole{
+        font-family: arial;
+      }
+      .cat{
+        object-fit: cover;
+      }
+      button{
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        border: none;
+        border-radius: 3px;
+        background-color: rgb(15, 150, 235);
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+      }
+      .picture{
+        width: 45px;
+      }
+      .cat{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+      }
+     .brief,
+     .follow,
+     .picture{
+        display: inline-block;
+        vertical-align: middle;
+      }
+      p{
+        margin-top: 4px;
+        margin-bottom: 0;
+        margin-left: 6px;
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+      }
+      .follow{
+        margin-left: 120px;
+      }
+      .name{
+        font-weight: bold;
+        color: black;
+      }
+      .first,
+      .second,
+      .third{
+        margin-top: 6px
+      }
+    </style>
+  </head>
+  <body>
+    <div class="whole">
+      <div class="first">
+        <div class="picture">
+          <img class="cat" src="medium.webp">
+        </div>
+        <div class="brief">
+          <p class="name">Oliver</p>
+          <p class="breed">Preety cat</p>
+          <p class="why">Popular</p>
+        </div>
+        <div class="follow">
+          <button>Follow</button>
+        </div>
+      </div>
+      <div class="second">
+        <div class="picture">
+          <img class="cat" src="hero.jpg">
+        </div>
+        <div class="brief">
+          <p class="name">Mimi</p>
+          <p class="breed">Sleepy cat</p>
+          <p class="why">Popular</p>
+        </div>
+        <div class="follow">
+          <button>Follow</button>
+        </div>
+      </div> 
+      <div class="third">
+        <div class="picture">
+          <img class="cat" src="flowe.jpg">
+        </div>
+        <div class="brief">
+          <p class="name">Sunny</p>
+          <p class="breed">The flower</p>
+          <p class="why">Popular</p>
+        </div>
+        <div class="follow">
+          <button>Follow</button>
+        </div>
+      </div>      
+    </div>
+  </body>
+</html>

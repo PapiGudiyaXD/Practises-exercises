@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .whole{
+        height: 200px;
+        width: 420px;
+        font-family: arial;
+        display: flex;
+        flex-direction: row;
+      }
+      .image{
+        height: 200px;
+        width: 80px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 8px;
+      }
+      .cat{
+        height: 50px;
+        width: 50px;
+        justify-content: cover;
+        border-radius: 50%;
+      }
+      .name{
+        font-weight: bold;
+        padding-right: 6px;
+      }
+      .username{
+        color: rgb(155, 155, 155);
+      }
+      .top,
+      .middle,
+      .bottom{
+        margin-top: 8px;
+      }
+      .middle{
+        line-height: 20px;
+      }
+      .bottom{
+        height: 90px;
+        width: 350px;
+        border-radius: 20px;
+        border: rgb(198, 197, 197);
+        border-style: solid;
+        border-width: 1px;
+        overflow: hidden;
+      }
+      .blank{
+        flex: 1;
+        background-color: rgb(210, 210, 210);
+        border: none;
+      }
+      .link{
+        width: 250px;
+        margin-top: 10px;
+        padding-left: 8px;
+      }
+      .head{
+        color: rgb(155, 155, 155);
+        margin-bottom: 6px;
+      }
+      .brief{
+        line-height: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="whole">
+      <div class="image">
+        <img src="hero.jpg" class="cat">
+      </div>
+      <div class="explain">
+        <div class="top"
+          style="display: flex;
+          flex: 1;">
+          <div class="name">supersimple.dev</div>
+          <div class="username">@SuperSimpleDev</div>
+        </div>
+        <div class="middle">
+          What is backend web development? A complete overview. New video is up!
+        </div>
+        <div class="bottom"
+        style="display: flex;
+        flex-direction: row;">
+          <div class="blank"></div>
+          <div class="link">
+            <div class="head">youtube.com</div>
+            <div class="brief">Backend web development - a complete overview (2021)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
